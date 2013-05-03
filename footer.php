@@ -27,9 +27,9 @@
 				</article>
 			</section>
 			<ul class="borderedBnr">
-				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_docs.jpg" alt>Firefox OSに関するドキュメント</a></li>
-				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_appdocs.jpg" alt>アプリ開発者向けドキュメント</a></li>
-				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_dev.jpg" alt>DEVELOPER HUB</a></li>
+				<li><a href="http://fxos.org/docs"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_docs.jpg" alt>Firefox OSに関するドキュメント</a></li>
+				<li><a href="http://fxos.org/apps"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_appdocs.jpg" alt>アプリ開発者向けドキュメント</a></li>
+				<li><a href="http://fxos.org/devhub"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_dev.jpg" alt>DEVELOPER HUB</a></li>
 			</ul>
 		</div><!-- /#side -->
 	</div><!-- /#wrapper -->
@@ -40,7 +40,7 @@
 				<div class="footerColumn">
 					<h1><img src="/wp-content/themes/fxos-theme/assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
 					<h2><img src="/wp-content/themes/fxos-theme/assets/img/header_url.png" alt="http://FxOS.org/"></h2>
-					<p class="joinbtn"><a href="#"><i class="icon-plus-sign"></i>コミュニティに登録</a></p>
+					<p class="joinbtn"><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-plus-sign"></i>コミュニティに登録</a></p>
 				</div>
 				<div class="footerColumn">
 					<h3><i class="icon-chevron-down"></i>メインメニュー</h3>
@@ -48,15 +48,15 @@
 						<li><a href="#"><i class="icon-home"></i>HOME</a></li>
 						<li><a href="#"><i class="icon-question-sign"></i>コミュニティについて</a></li>
 						<li><a href="#"><i class="icon-calendar"></i>イベント / レポート</a></li>
-						<li><a href="#"><i class="icon-rss"></i>コミュニティからのおしらせ</a></li>
+						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-rss"></i>コミュニティからのおしらせ</a></li>
 					</ul>
 				</div>
 				<div class="footerColumn">
 					<h3><i class="icon-chevron-down"></i>参考リンク</h3>
 					<ul>
-						<li><a href="#"><i class="icon-external-link"></i>Firefox OSに関するドキュメント</a></li>
-						<li><a href="#"><i class="icon-external-link"></i>アプリ開発者向けドキュメント</a></li>
-						<li><a href="#"><i class="icon-external-link"></i>DEVELOPER HUB</a></li>
+						<li><a href="http://fxos.org/docs"><i class="icon-external-link"></i>Firefox OSに関するドキュメント</a></li>
+						<li><a href="http://fxos.org/apps"><i class="icon-external-link"></i>アプリ開発者向けドキュメント</a></li>
+						<li><a href="http://fxos.org/devhub"><i class="icon-external-link"></i>DEVELOPER HUB</a></li>
 					</ul>
 				</div>
 			</div>

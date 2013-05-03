@@ -39,7 +39,7 @@
 			<h2><img src="/wp-content/themes/fxos-theme/assets/img/header_url.png" alt="http://FxOS.org/"></h2>
 			<p class="os"><img src="/wp-content/themes/fxos-theme/assets/img/header_os.png" alt=""></p>
 			<p class="fox"><img src="/wp-content/themes/fxos-theme/assets/img/header_fox.png" alt=""></p>
-			<p class="joinbtn"><a href="#"><i class="icon-plus-sign"></i>コミュニティに登録<span>Googleグループへ</span></a></p>
+			<p class="joinbtn"><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-plus-sign"></i>コミュニティに登録<span>Googleグループへ</span></a></p>
 		</div>
 	</header>
 	<nav>
