@@ -32,23 +32,24 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		<hgroup>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
-			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-
-		<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-		<?php endif; ?>
-	</header><!-- #masthead -->
-
-	<div id="main" class="wrapper">
+<div id="container">
+	<header>
+		<div class="inner">
+			<h1><img src="assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
+			<h2><img src="assets/img/header_url.png" alt="http://FxOS.org/"></h2>
+			<p class="os"><img src="assets/img/header_os.png" alt=""></p>
+			<p class="fox"><img src="assets/img/header_fox.png" alt=""></p>
+			<p class="joinbtn"><a href="#"><i class="icon-plus-sign"></i>コミュニティに登録<span>Googleグループへ</span></a></p>
+		</div>
+	</header>
+	<nav>
+		<ul class="gnav wrap">
+			<li><a href="#"><i class="icon-home"></i>HOME</a></li>
+			<li><a href="#"><i class="icon-question-sign"></i>コミュニティについて</a></li>
+			<li><a href="#"><i class="icon-calendar"></i>イベント / レポート</a></li>
+		</ul>
+	</nav>
+	<div class="keyvisual">
+	</div>
+	<div id="wrapper" class="wrap">
+		<div id="main">

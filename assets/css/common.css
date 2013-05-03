@@ -1,0 +1,515 @@
+@charset "UTF-8";
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++	CSS information
++
++	file name  :common.css
++	author     :tuqulore Inc. (admin)
++	date       :2013.4.30
++	update     :2012.6.6
++	style info :共通スタイル
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+.wrap:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+/*======================================================
+	common styles
+======================================================*/
+
+body {
+	font-family: Myriad Pro, Arial, Helvetica,"ヒラギノ角ゴ W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo,  "MS P Gothic","ＭＳ Ｐゴシック",sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #f1f1f1;
+	line-height: 1.4;
+}
+i{
+	margin-right: 0.3em;
+}
+
+/*-----------------------------------------------
+	parts name
+-----------------------------------------------*/
+#container{
+}
+/*-----------------------------------------------
+	header
+-----------------------------------------------*/
+header{
+	background: #2097cf url(../img/header_bg.jpg) no-repeat 20% 0;
+	height: 400px;
+}
+header .inner{
+	width: 90%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 15px;
+	position: relative;
+}
+header h1{
+	margin-top: 40px;
+}
+header h2{
+	margin: 20px 0 40px 105px;
+}
+header .os{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+header .fox{
+	position: absolute;
+	right: 12%;
+	top: 30px;
+}
+
+/*___ joinbtn _____________________*/
+
+.joinbtn{
+	width: 315px;
+	box-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.joinbtn a{
+	display: block;
+	background-color: #cc1817;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.joinbtn a span{
+	color: #e68c8b;
+	display: block;
+	font-size: 0.9rem;
+}
+.joinbtn a:hover{
+	background-color: #840c0b;
+}
+
+/*___ nav _____________________*/
+
+nav{
+	background-color: #e95f02;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.gnav{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.gnav a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0.8em 0;
+	width: 100%;
+	margin: 0.2em 0 0.3em;
+	display: block;
+}
+.gnav a:hover{
+	background-color: #be4800;
+}
+.gnav li{
+	float: left;
+	list-style: none;
+	width: 33%;
+}
+
+
+/*-----------------------------------------------
+	common parts
+-----------------------------------------------*/
+
+#wrapper{
+	width: 90%;
+	max-width: 940px;
+	margin: 30px auto;
+}
+#wrapper h1{
+	font-size: 1.4rem;
+}
+
+.box{
+	background-color: #fff;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 1rem;
+}
+.box .date{
+	font-weight: bold;
+}
+.more{
+	
+}
+.more a{
+	padding: 0.7rem 2rem 0.5rem;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* ------ .org ------ */
+
+.org .box{
+	border: 3px solid #e95f02;
+}
+.org .date,
+.org h1{
+	color: #e95f02;
+}
+.org .more a{
+	background-color: #e95f02;
+}
+.org .more a:hover{
+	background-color: #be4800;
+}
+
+
+/* ------ .bl ------ */
+
+.bl .box{
+	border: 3px solid #2097cf;
+}
+.bl h1{
+	color: #2097cf;
+}
+.bl .more a{
+	background-color: #2097cf;
+}
+.bl .more a:hover{
+	background-color: #087eb6;
+}
+
+
+
+/* ------ normal list ------ */
+
+.list li{
+	list-style: none;
+	border-bottom: 1px dotted #ccc;
+}
+.list li a{
+	display: block;
+	text-decoration: none;
+	padding: 0.5rem 0 0.5rem 1.5rem;
+}
+.list li a:hover{
+	background-color: #f1f1f1;
+}
+
+/*-----------------------------------------------
+	#main
+-----------------------------------------------*/
+#main{
+	width: 65%;
+	float: left;
+}
+
+/* ------ #nowEvent ------ */
+
+#nowEvent h2{
+	font-size: 1.2rem;
+}
+#nowEvent .date{
+	text-align: right;
+	margin-bottom: 0.5rem;
+}
+#nowEvent .thumb{
+	float: left;
+	margin-right: 1rem;
+}
+#nowEvent .more{
+	margin-top: 0.5rem;
+}
+#nowEvent .more a{
+	display: block;
+	margin-left: 50%;
+}
+
+
+/* ------ #pastEvent ------ */
+
+#pastEvent .box{
+	width: 48%;
+	float: left;
+	margin: 0 1% 20px;
+	position: relative;
+}
+#pastEvent .box img{
+	width: 100%;
+	vertical-align: middle;
+}
+#pastEvent .box .thumb{
+	position: relative;
+	margin-bottom: 5px;
+}
+#pastEvent .box .thumb a{
+	text-decoration: none;
+	color: #fff;
+}
+#pastEvent .box .thumb i{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #e95f02;
+	padding: 5px 8px;
+}
+#pastEvent .box .more{
+	position: absolute;
+	right: 0;
+	top: 1rem;
+	opacity: 0;
+}
+#pastEvent .box:hover .more{
+	opacity: 1;
+}
+
+/*-----------------------------------------------
+	#side
+-----------------------------------------------*/
+
+#side{
+	width: 30%;
+	float: right;
+}
+
+/* ------ #news ------ */
+
+#news .list a{
+	color: #666;
+}
+#news .more a{
+	display: block;
+	margin-top: 1rem;
+}
+
+.borderedBnr li{
+	list-style: none;
+	border: 3px solid #642800;
+	color: #642800;
+	font-weight: bold;
+	height: 58px;
+	background-color: #fff;
+	position: relative;
+	margin-bottom: 10px;
+}
+.borderedBnr li a{
+	text-decoration: none;
+	color: #642800;
+	padding: 5px 5px 0 65px;
+	display: block;
+	height: 53px;
+}
+.borderedBnr li a:hover{
+	background-color: #f1f1f1;
+}
+.borderedBnr li img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/*-----------------------------------------------
+	footer
+-----------------------------------------------*/
+
+footer{
+	background: #666;
+	color: #fff;
+}
+footer a{
+	color: #ccc;
+}
+footer .inner{
+	width: 90%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 0 20px;
+}
+footer .footerColumn{
+	width: 31%;
+	margin: 0 1%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+footer i.icon-external-link{
+	font-size: 0.8rem;
+}
+footer .footerColumn a{
+	text-decoration: none;
+	color: #f1f1f1;
+	display: block;
+	padding: 3px 0 3px 5px;
+}
+footer .footerColumn a:hover{
+	background-color: #333;
+}
+
+footer .footerColumn li{
+	list-style: none;
+}
+footer .copyright{
+	text-align: center;
+	font-size: 0.8rem;
+	margin-top: 1.5rem;
+}
+
+footer h1 img{
+	width: 70%;
+}
+footer h2 img{
+	width: 50%;
+	margin-left: 20%;
+}
+footer .joinbtn{
+	width: 75%;
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+footer .joinbtn a{
+	padding: 0.5rem 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++	style info : 一般的なスマートフォン用
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+@media screen and (max-width: 800px){
+
+header .fox{
+	display: none;
+}
+nav{
+	font-size: 0.9rem;
+}
+#main, #side{
+	float: none;
+	width: 100%;
+}
+#side .borderedBnr{
+	display: none;
+}
+
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++	style info : 一般的なタブレット用
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+@media screen and (max-width: 600px){
+
+header{
+	background-size: 80%;
+	height: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+header h1{
+	margin-top: 20px;
+}
+header h1 img{
+	width: 80%;
+}
+header h2{
+	margin: 10px auto;
+}
+header h2 img{
+	width: 50%;
+}
+header .joinbtn{
+	width: 80%;
+	margin:  0 auto;
+}
+
+header .os{
+	display: none;
+}
+nav{
+	display: none;
+}
+/*.gnav li{
+	float: none;
+	width: 100%;
+}*/
+
+#nowEvent .more a {
+	margin-left: 0;
+}
+
+#pastEvent .box{
+	padding: 0.5rem;
+}
+
+footer .footerColumn{
+	width: 100%;
+	float: none;
+}
+footer h1, footer h2{
+	text-align: center;
+	margin: 0;
+}
+footer h1 img{
+	width: 50%;
+}
+footer h2 img{
+	width: 30%;
+	margin: 0;
+}
+footer .joinbtn{
+	width: 75%;
+	font-size: 0.9rem;
+	margin: 0.5rem auto 1rem;
+}
+footer .joinbtn a{
+	padding: 0.5rem 0;	
+}
+
+footer .footerColumn ul{
+	width: 90%;
+	margin: 0 auto 1rem;
+}
+footer .footerColumn ul li{
+	border-bottom: 1px dotted #ccc;
+}
+footer .footerColumn ul li a{
+	padding: 0.5rem;
+}
+
+
+}
