@@ -35,10 +35,10 @@
 <div id="container">
 	<header>
 		<div class="inner">
-			<h1><img src="assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
-			<h2><img src="assets/img/header_url.png" alt="http://FxOS.org/"></h2>
-			<p class="os"><img src="assets/img/header_os.png" alt=""></p>
-			<p class="fox"><img src="assets/img/header_fox.png" alt=""></p>
+			<h1><img src="/wp-content/themes/fxos-theme/assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
+			<h2><img src="/wp-content/themes/fxos-theme/assets/img/header_url.png" alt="http://FxOS.org/"></h2>
+			<p class="os"><img src="/wp-content/themes/fxos-theme/assets/img/header_os.png" alt=""></p>
+			<p class="fox"><img src="/wp-content/themes/fxos-theme/assets/img/header_fox.png" alt=""></p>
 			<p class="joinbtn"><a href="#"><i class="icon-plus-sign"></i>コミュニティに登録<span>Googleグループへ</span></a></p>
 		</div>
 	</header>

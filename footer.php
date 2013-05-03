@@ -27,9 +27,9 @@
 				</article>
 			</section>
 			<ul class="borderedBnr">
-				<li><a href="#"><img src="assets/img/bnricon_docs.jpg" alt>Firefox OSに関するドキュメント</a></li>
-				<li><a href="#"><img src="assets/img/bnricon_appdocs.jpg" alt>アプリ開発者向けドキュメント</a></li>
-				<li><a href="#"><img src="assets/img/bnricon_dev.jpg" alt>DEVELOPER HUB</a></li>
+				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_docs.jpg" alt>Firefox OSに関するドキュメント</a></li>
+				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_appdocs.jpg" alt>アプリ開発者向けドキュメント</a></li>
+				<li><a href="#"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_dev.jpg" alt>DEVELOPER HUB</a></li>
 			</ul>
 		</div><!-- /#side -->
 	</div><!-- /#wrapper -->
@@ -38,8 +38,8 @@
 		<div class="inner">
 			<div class="wrap">
 				<div class="footerColumn">
-					<h1><img src="assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
-					<h2><img src="assets/img/header_url.png" alt="http://FxOS.org/"></h2>
+					<h1><img src="/wp-content/themes/fxos-theme/assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
+					<h2><img src="/wp-content/themes/fxos-theme/assets/img/header_url.png" alt="http://FxOS.org/"></h2>
 					<p class="joinbtn"><a href="#"><i class="icon-plus-sign"></i>コミュニティに登録</a></p>
 				</div>
 				<div class="footerColumn">
