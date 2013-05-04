@@ -24,7 +24,7 @@ get_header(); ?>
 
 				<?php
 				/* カスタム投稿タイプを表示する */
-				$loop = new WP_Query( array( 'post_type' => 'books', 'posts_per_page' => 10 ) );
+				$loop = new WP_Query( array( 'post_type' => 'event', 'posts_per_page' => 10 ) );
 				while ( $loop->have_posts() ) : $loop->the_post();
 				?>
 
