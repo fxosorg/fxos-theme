@@ -453,7 +453,7 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
 
 //イベントのカスタムポストタイプ
-/*add_action('init', 'event_init');
+add_action('init', 'event_init');
 function event_init()
 {
   $labels = array(
@@ -483,11 +483,11 @@ function event_init()
     'has_archive' => true
   );
   register_post_type('event',$args);
-}*/
+}
 
 
 //カスタム分類
-/*add_action('init', 'create_custom_taxonomies', 0);
+add_action('init', 'create_custom_taxonomies', 0);
 function create_custom_taxonomies() {  
     register_taxonomy(
         'now', // 内部的な分類名
@@ -499,4 +499,4 @@ function create_custom_taxonomies() {
             'rewrite' => true
         )
     );
-}*/
+}
