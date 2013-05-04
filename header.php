@@ -44,7 +44,7 @@
 	</header>
 	<nav>
 		<ul class="gnav wrap">
-			<li><a href="#"><i class="icon-home"></i>HOME</a></li>
+			<li><a href="/"><i class="icon-home"></i>HOME</a></li>
 			<li><a href="#"><i class="icon-question-sign"></i>コミュニティについて</a></li>
 			<li><a href="#"><i class="icon-calendar"></i>イベント / レポート</a></li>
 		</ul>

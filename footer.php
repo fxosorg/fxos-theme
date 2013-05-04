@@ -45,7 +45,7 @@
 				<div class="footerColumn">
 					<h3><i class="icon-chevron-down"></i>メインメニュー</h3>
 					<ul>
-						<li><a href="#"><i class="icon-home"></i>HOME</a></li>
+						<li><a href="/"><i class="icon-home"></i>HOME</a></li>
 						<li><a href="#"><i class="icon-question-sign"></i>コミュニティについて</a></li>
 						<li><a href="#"><i class="icon-calendar"></i>イベント / レポート</a></li>
 						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-rss"></i>コミュニティからのおしらせ</a></li>
