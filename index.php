@@ -24,11 +24,11 @@ get_header(); ?>
 
 				<?php
 				/* カスタム投稿タイプを表示する */
-				$loop = new WP_Query( array( 'post_type' => 'event', 'posts_per_page' => 10 ) );
-				while ( $loop->have_posts() ) : $loop->the_post();
+				//$loop = new WP_Query( array( 'post_type' => 'event', 'posts_per_page' => 10 ) );
+				//while ( $loop->have_posts() ) : $loop->the_post();
 				?>
 
-				<article class="box">
+				<!--<article class="box">
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 					<p class="date">2013.4.27（土）〜28（日）</p>
 					<div class="wrap">
@@ -37,7 +37,7 @@ get_header(); ?>
 					</div>
 					<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>くわしく知りたい</a></p>
 				</article>
-				<?php endwhile; ?>
+				<?php endwhile; ?>-->
 
 			</section>
 			<section id="pastEvent" class="org">
