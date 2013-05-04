@@ -16,6 +16,57 @@
 
 get_header(); ?>
 
+
+
+
+			<section id="nowEvent" class="org">
+				<h1><i class="icon-bullhorn"></i>開催イベント</h1>
+
+				<?php
+				/* カスタム投稿タイプを表示する */
+				$loop = new WP_Query( array( 'post_type' => 'books', 'posts_per_page' => 10 ) );
+				while ( $loop->have_posts() ) : $loop->the_post();
+				?>
+
+				<article class="box">
+					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+					<p class="date">2013.4.27（土）〜28（日）</p>
+					<div class="wrap">
+						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="200"></a></p>
+						<p class="text"><?php echo mb_substr(strip_tags($post-> post_content),0,200).'...'; ?></p>
+					</div>
+					<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>くわしく知りたい</a></p>
+				</article>
+				<?php endwhile; ?>
+
+			</section>
+			<section id="pastEvent" class="org">
+				<h1><i class="icon-camera-retro"></i>イベントレポート</h1>
+				<div class="wrap">
+					<article class="box">
+						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="150"></a></p>
+						<p class="more"><a href="#"><i class="icon-circle-arrow-right"></i></a></p>
+						<h2>Mozilla Hackathon 2013 春</h2>
+						<p class="date">2013.4.27（土）〜28（日）</p>
+					</article>
+					<article class="box">
+						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="150"></a></p>
+						<p class="more"><a href="#"><i class="icon-circle-arrow-right"></i></a></p>
+						<h2>Mozilla Hackathon 2013 春</h2>
+						<p class="date">2013.4.27（土）〜28（日）</p>
+					</article>
+					<article class="box">
+						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="150"></a></p>
+						<p class="more"><a href="#"><i class="icon-circle-arrow-right"></i></a></p>
+						<h2>Mozilla Hackathon 2013 春</h2>
+						<p class="date">2013.4.27（土）〜28（日）</p>
+					</article>
+				</div>
+			</section>
+
+
+
+
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
