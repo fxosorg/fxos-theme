@@ -1,3 +1,5 @@
+<?php
+
 //イベントのカスタムポストタイプ
 add_action('init', 'event_init');
 function event_init()
@@ -46,3 +48,5 @@ function create_custom_taxonomies() {
         )
     );
 }
+
+?>
