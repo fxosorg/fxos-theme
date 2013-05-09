@@ -325,6 +325,13 @@ nav{
 	text-decoration: none;
 	color: #fff;
 }
+#pastEvent .thumb{
+	float: left;
+	margin-right: 1rem;
+	width: 150px;
+	height: 100px;
+	background: url(../img/noimage.jpg) no-repeat center center;
+}
 #pastEvent .box .thumb i{
 	position: absolute;
 	bottom: 0;
@@ -347,7 +354,8 @@ nav{
 #nowEvent.reports h2{
 	margin-bottom: 1em;
 }
-#nowEvent.reports .date{
+#nowEvent.reports .date,
+#pastEvent .date{
 	color: #666;
 	text-align: right;
 }
