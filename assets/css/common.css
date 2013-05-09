@@ -582,7 +582,7 @@ header h2 img{
 	width: 50%;
 }
 header.top .joinbtn,
-header.elsebtn .joinbtn{
+header.elsepage .joinbtn{
 	width: 80%;
 	margin:  0 auto;
 	position: static;
