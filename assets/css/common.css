@@ -240,6 +240,23 @@ nav{
 	background-color: #087eb6;
 }
 
+/* ------ .gray ------ */
+
+.gray .box{
+	border: 3px solid #e95f02;
+}
+.gray .date,
+.gray h1{
+	color: #e95f02;
+}
+.gray .more a{
+	background-color: #e95f02;
+}
+.gray .more a:hover{
+	background-color: #be4800;
+}
+
+
 
 
 /* ------ normal list ------ */
