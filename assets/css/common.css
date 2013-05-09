@@ -337,14 +337,18 @@ nav{
 #pastEvent .box{
 	width: 100%;
 	margin: 0 0 20px;
-	position: relative;
+}
+#pastEvent .box:after{
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
 }
 #pastEvent .box img{
 	width: 100%;
 	vertical-align: middle;
 }
 #pastEvent .box .thumb{
-	position: relative;
 	float: left;
 }
 #pastEvent .box .thumb a{
@@ -358,9 +362,6 @@ nav{
 	background: url(../img/noimage.jpg) no-repeat center center;
 }
 #pastEvent .box .thumb i{
-	position: absolute;
-	bottom: 0;
-	right: 0;
 	background-color: #e95f02;
 	padding: 5px 8px;
 }
