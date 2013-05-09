@@ -535,4 +535,4 @@ function create_custom_taxonomies() {
 
 //サムネイルの表示
 add_image_size( 'eventthumb', 200, 200, true );
-add_image_size( 'reportthumb', 200, 150, true );
+add_image_size( 'reportthumb', 150, 100, true );
