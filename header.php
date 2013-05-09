@@ -35,8 +35,9 @@
 <div id="container">
 	<?php if ( is_home() ) { ?>
 	<header class="top">
-	<?php } ?> 
+	<?php } else { ?> 
 	<header class="elsepage">
+	<?php } ?> 
 		<div class="inner">
 			<h1><img src="/wp-content/themes/fxos-theme/assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>
 			<h2><img src="/wp-content/themes/fxos-theme/assets/img/header_url.png" alt="http://FxOS.org/"></h2>
