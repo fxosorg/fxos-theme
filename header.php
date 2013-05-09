@@ -46,7 +46,7 @@
 		<ul class="gnav wrap">
 			<li><a href="/"><i class="icon-home"></i>HOME</a></li>
 			<li><a href="/about/"><i class="icon-question-sign"></i>コミュニティについて</a></li>
-			<li><a href="#"><i class="icon-file-alt"></i>ドキュメント</a>
+			<li class="doc"><a href="#"><i class="icon-file-alt"></i>ドキュメント</a>
 				<ul>
 					<li><a href="/docs/"><i class="icon-user"></i>ユーザ向けドキュメント</a></li>
 					<li><a href="/apps/"><i class="icon-wrench"></i>アプリ開発者向けドキュメント</a></li>

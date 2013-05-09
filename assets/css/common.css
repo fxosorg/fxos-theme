@@ -147,6 +147,16 @@ nav{
 	float: left;
 	list-style: none;
 	width: 25%;
+	position: relative;
+}
+.gnav li ul{
+	position: absolute;
+	top: 1.5em;
+	left: 0;
+}
+.gnav li ul > li{
+	float: none;
+	font-size: 0.9em;
 }
 
 
