@@ -156,6 +156,8 @@ nav{
 	background-color: #e95f02;
 	border: 2px solid #fff;
 	text-align: left;
+	width: 110%;
+	display: none;
 }
 .gnav li ul > li{
 	float: none;
@@ -164,6 +166,11 @@ nav{
 }
 .gnav li ul > li a{
 	padding: 0.5em;
+	width: auto;
+}
+
+.gnav li.doc a:hover > ul{
+	display: block;
 }
 
 
