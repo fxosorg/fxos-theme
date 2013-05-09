@@ -60,7 +60,7 @@
 					</ul>
 				</div>
 			</div>
-			<p class="copyright">注があるものを除いて, このサイトの内容物は<a href="http://creativecommons.org/licenses/by/3.0/">クリエイティブ・コモンズ・ライセンス 表示 3.0</a>のもとでライセンスされています。</p>
+			<p class="copyright">Portions of this content are ©2013 by Firefox OS Community.<br>このサイトの一部はクリエイティブ・コモンズ・ライセンスのもとでライセンスされています。</p>
 		</div>
 	</footer>
 
