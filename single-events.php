@@ -21,13 +21,13 @@ get_header(); ?>
 						<p class="thumb"><?php the_post_thumbnail('eventthumb') ?></p>
 						<div class="text">
 							<dl>
-								<dt>開催日時</dt>
+								<dt><i class="icon-time"></i>開催日時</dt>
 								<dd><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></dd>
-								<dt>会場</dt>
+								<dt><i class="icon-building"></i>会場</dt>
 								<dd><?php echo get_post_meta($post->ID,'会場',TRUE); ?></dd>
-								<dt>定員</dt>
+								<dt><i class="icon-group"></i>定員</dt>
 								<dd><?php echo get_post_meta($post->ID,'定員',TRUE); ?></dd>
-								<dt>ハッシュタグ</dt>
+								<dt><i class="icon-twitter"></i>ハッシュタグ</dt>
 								<dd><?php echo get_post_meta($post->ID,'ハッシュタグ',TRUE); ?></dd>
 						</div>
 					</div>

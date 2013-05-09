@@ -23,14 +23,9 @@
 						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
 						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
 					</ul>
-					<p class="more"><a href="#"><i class="icon-circle-arrow-right"></i>すべてみる</a></p>
+					<p class="more"><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-circle-arrow-right"></i>すべてみる</a></p>
 				</article>
 			</section>
-			<!--<ul class="borderedBnr">
-				<li><a href="http://fxos.org/docs"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_docs.jpg" alt>Firefox OSに関するドキュメント</a></li>
-				<li><a href="http://fxos.org/apps"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_appdocs.jpg" alt>アプリ開発者向けドキュメント</a></li>
-				<li><a href="http://fxos.org/devhub"><img src="/wp-content/themes/fxos-theme/assets/img/bnricon_dev.jpg" alt>DEVELOPER HUB</a></li>
-			</ul>-->
 		</div><!-- /#side -->
 	</div><!-- /#wrapper -->
 
@@ -46,17 +41,17 @@
 					<h3><i class="icon-chevron-down"></i>メインメニュー</h3>
 					<ul>
 						<li><a href="/"><i class="icon-home"></i>HOME</a></li>
-						<li><a href="#"><i class="icon-question-sign"></i>コミュニティについて</a></li>
-						<li><a href="#"><i class="icon-calendar"></i>イベント / レポート</a></li>
+						<li><a href="/about/"><i class="icon-question-sign"></i>コミュニティについて</a></li>
+						<li><a href="/events/"><i class="icon-calendar"></i>イベント / レポート</a></li>
 						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-rss"></i>最近のトピック</a></li>
 					</ul>
 				</div>
 				<div class="footerColumn">
-					<h3><i class="icon-chevron-down"></i>ドキュメントリンク集</h3>
+					<h3><i class="icon-file-alt"></i>ドキュメント</h3>
 					<ul>
-						<li><a href="http://fxos.org/docs"><i class="icon-external-link"></i>Firefox OSに関するドキュメント</a></li>
-						<li><a href="http://fxos.org/apps"><i class="icon-external-link"></i>アプリ開発者向けドキュメント</a></li>
-						<li><a href="http://fxos.org/devhub"><i class="icon-external-link"></i>DEVELOPER HUB</a></li>
+						<li><a href="/docs/"><i class="icon-user"></i>ユーザ向け</a></li>
+						<li><a href="/apps/"><i class="icon-wrench"></i>アプリ開発者向け</a></li>
+						<li><a href="/hacks/"><i class="icon-beaker"></i>Firefox OS本体のカスタマイズ</a></li>
 					</ul>
 				</div>
 			</div>

@@ -356,6 +356,9 @@ nav{
 .contents h3{
 	font-size: 1.2rem;
 }
+.contents ul{
+	margin-left: 2em;
+}
 
 
 /*-----------------------------------------------
