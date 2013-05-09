@@ -366,6 +366,8 @@ nav{
 	padding: 5px 8px;
 }
 #pastEvent .box .more{
+	text-align: right;
+	margin: 1em 0;
 }
 #pastEvent .box:hover .more{
 }
