@@ -279,7 +279,7 @@ nav{
 	margin-right: 1rem;
 	width: 200px;
 	height: 200px;
-	background: url(../img/noimage.jpg) no-repeat 0 0;
+	background: url(../img/noimage.jpg) no-repeat center center;
 }
 #nowEvent .text{
 	margin-top: 1rem;
@@ -326,10 +326,9 @@ nav{
 	color: #fff;
 }
 #pastEvent .thumb{
-	float: left;
 	margin-right: 1rem;
-	width: 150px;
-	height: 100px;
+	width: 255px;
+	height: 150px;
 	background: url(../img/noimage.jpg) no-repeat center center;
 }
 #pastEvent .box .thumb i{
@@ -358,6 +357,7 @@ nav{
 #pastEvent .date{
 	color: #666;
 	text-align: right;
+	font-weight: normal;
 }
 
 /* ------ .contents ------ */
