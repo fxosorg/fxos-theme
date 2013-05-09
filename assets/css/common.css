@@ -561,13 +561,15 @@ nav{
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (max-width: 600px){
 
-header{
+header.top,
+header.elsepage{
 	background-size: 80%;
 	height: auto;
 	text-align: center;
 	padding-bottom: 20px;
 }
-header h1{
+header.top h1,
+header.elsepage h1{
 	margin-top: 20px;
 }
 header h1 img{
@@ -582,6 +584,9 @@ header h2 img{
 header .joinbtn{
 	width: 80%;
 	margin:  0 auto;
+	position: static;
+	right: auto;
+	bottom: auto;
 }
 
 header .os{
