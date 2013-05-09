@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-			<section class="org">
+			<section id="nowEvent" class="org">
 				<h1><i class="icon-bullhorn"></i>イベント詳細</h1>
 
 
@@ -18,8 +18,17 @@ get_header(); ?>
 					<p class="date"><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></p>
 					<div class="wrap">
 						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="200"></a></p>
-						<p class="text"><?php echo mb_substr(strip_tags($post-> post_content),0,200).'...'; ?></p>
+						<div class="text">
+							<dl>
+								<dt>会場</dt>
+								<dd><?php echo get_post_meta($post->ID,'会場',TRUE); ?></dd>
+								<dt>定員</dt>
+								<dd><?php echo get_post_meta($post->ID,'定員',TRUE); ?></dd>
+								<dt>ハッシュタグ</dt>
+								<dd><?php echo get_post_meta($post->ID,'ハッシュタグ',TRUE); ?></dd>
+						</div>
 					</div>
+					<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>詳細ページ＆申し込み</a></p>
 				</article>
 
 			</section>
