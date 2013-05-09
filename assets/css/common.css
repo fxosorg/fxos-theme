@@ -151,12 +151,16 @@ nav{
 }
 .gnav li ul{
 	position: absolute;
-	top: 1.5em;
+	top: 3em;
 	left: 0;
+	padding: 1em;
+	background-color: #e95f02;
+	border: 2px solid #fff;
 }
 .gnav li ul > li{
 	float: none;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	width: auto;
 }
 
 
