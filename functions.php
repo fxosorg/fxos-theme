@@ -485,6 +485,38 @@ function event_init()
   register_post_type('events',$args);
 }
 
+//レポートのカスタムポストタイプ
+add_action('init', 'report_init');
+function report_init()
+{
+  $labels = array(
+    'name' => _x('イベントレポート', 'post type general name'),
+    'singular_name' => _x('イベントレポート一覧', 'post type singular name'),
+    'add_new' => _x('新しいイベントレポートを追加', 'activity'),
+    'add_new_item' => __('イベントレポートの新規記事を書く'),
+    'edit_item' => __('イベントレポートの記事を編集'),
+    'new_item' => __('イベントレポートの新規記事'),
+    'view_item' => __('イベントレポートの記事を見る'),
+    'search_items' => __('イベントレポートの記事を探す'),
+    'not_found' =>  __('イベントレポートの記事はありません'),
+    'not_found_in_trash' => __('ゴミ箱にイベントレポートの記事はありません'),
+    'parent_item_colon' => ''
+  );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'query_var' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'hierarchical' => false,
+    'menu_position' => 5,
+    'supports' => array('title','editor','thumbnail','custom-fields','excerpt','author','trackbacks','comments','revisions','page-attributes'),
+    'has_archive' => true
+  );
+  register_post_type('reports',$args);
+}
 
 //カスタム分類
 add_action('init', 'create_custom_taxonomies', 0);
@@ -503,3 +535,4 @@ function create_custom_taxonomies() {
 
 //サムネイルの表示
 add_image_size( 'eventthumb', 200, 200, true );
+add_image_size( 'reportthumb', 200, 150, true );

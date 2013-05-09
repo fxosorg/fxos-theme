@@ -35,6 +35,7 @@ get_header(); ?>
 					<div class="contents">
 						<?php the_content(); ?>
 					</div>
+					<p class="more"><a href="<?php echo get_post_meta($post->ID,'詳細ページ',TRUE); ?>"><i class="icon-circle-arrow-right"></i>詳細ページ＆申し込み</a></p>
 				</article>
 
 			</section>

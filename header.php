@@ -53,7 +53,7 @@
 					<li><a href="/hacks/"><i class="icon-beaker"></i>Firefox OS本体のカスタマイズ</a></li>
 				</ul>
 			</li>
-			<li><a href="/events/"><i class="icon-calendar"></i>イベント / レポート</a></li>
+			<li><a href="/reports/"><i class="icon-calendar"></i>イベントレポート</a></li>
 		</ul>
 	</nav>
 	<div class="keyvisual">
