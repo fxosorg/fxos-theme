@@ -18,7 +18,7 @@ get_header(); ?>
 				<article class="box">
 					<h2><?php the_title(); ?></h2>
 					<div class="wrap">
-						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="200"></a></p>
+						<p class="thumb"><?php the_post_thumbnail('eventthumb') ?></p>
 						<div class="text">
 							<dl>
 								<dt>開催日時</dt>

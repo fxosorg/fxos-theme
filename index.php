@@ -30,10 +30,10 @@ get_header(); ?>
 
 				<article class="box">
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-					<p class="date">2013.4.27（土）〜28（日）</p>
+					<p class="date"><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></p>
 					<div class="wrap">
-						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="200"></a></p>
-						<p class="text"><?php echo mb_substr(strip_tags($post-> post_content),0,200).'...'; ?></p>
+						<p class="thumb"><a href="<?php the_permalink() ?>"><?php the_post_thumbnail('eventthumb') ?></a></p>
+						<p class="text"><?php echo mb_substr(strip_tags($post-> post_content),0,150).'...'; ?></p>
 					</div>
 					<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>くわしく知りたい</a></p>
 				</article>

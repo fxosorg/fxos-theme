@@ -500,3 +500,6 @@ function create_custom_taxonomies() {
         )
     );
 }
+
+//サムネイルの表示
+add_image_size( 'eventthumb', 200, 200, true );
