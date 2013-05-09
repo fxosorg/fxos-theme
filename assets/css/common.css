@@ -241,7 +241,7 @@ nav{
 /* ------ #nowEvent ------ */
 
 #nowEvent h2{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 #nowEvent .date{
 	text-align: right;
@@ -250,6 +250,10 @@ nav{
 #nowEvent .thumb{
 	float: left;
 	margin-right: 1rem;
+	margin-top: 0.5rem;
+}
+#nowEvent .text{
+	margin-top: 0.5rem;
 }
 
 #nowEvent dt{
@@ -257,7 +261,7 @@ nav{
 	color: #e95f02;
 }
 #nowEvent dd{
-	margin: 0 0 1em 2em;
+	margin: 0 0 0.5em 2em;
 }
 
 #nowEvent .more{
