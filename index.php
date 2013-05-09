@@ -40,6 +40,7 @@ get_header(); ?>
 				<?php endwhile; ?>
 
 			</section>
+
 			<section id="pastEvent" class="org">
 				<h1><i class="icon-camera-retro"></i>イベントレポート</h1>
 				<div class="wrap">
