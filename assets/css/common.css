@@ -57,6 +57,12 @@ i{
 a{
 	color: #be4800;
 }
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
 
 /*-----------------------------------------------
 	parts name
@@ -340,7 +346,8 @@ nav{
 }
 #pastEvent .box .thumb{
 	position: relative;
-	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
 }
 #pastEvent .box .thumb a{
 	text-decoration: none;

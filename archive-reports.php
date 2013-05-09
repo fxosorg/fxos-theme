@@ -20,7 +20,7 @@
 get_header(); ?>
 
 	<section id="pastEvent" class="org">
-		<h1><i class="icon-camera-retro"></i>イベントレポート</h1>
+		<h1><i class="icon-calendar"></i></i>イベントレポート</h1>
 		<div class="wrap">
 			<article class="box">
 				<p class="thumb"><a href="<?php the_permalink() ?>"><?php the_post_thumbnail('reportthumb') ?></a></p>

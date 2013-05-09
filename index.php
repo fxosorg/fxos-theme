@@ -42,7 +42,7 @@ get_header(); ?>
 			</section>
 
 			<section id="pastEvent" class="org">
-				<h1><i class="icon-camera-retro"></i>イベントレポート</h1>
+				<h1><i class="icon-calendar"></i>イベントレポート</h1>
 				<div class="wrap">
 				<?php
 				/* カスタム投稿タイプを表示する */
