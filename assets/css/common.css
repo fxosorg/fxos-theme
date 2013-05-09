@@ -169,7 +169,7 @@ nav{
 	width: auto;
 }
 
-.gnav li.doc a:hover > ul{
+.gnav li.doc:hover > ul{
 	display: block;
 }
 
