@@ -15,11 +15,12 @@ get_header(); ?>
 
 				<article class="box">
 					<h2><?php the_title(); ?></h2>
-					<p class="date"><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></p>
 					<div class="wrap">
 						<p class="thumb"><a href="#"><img src="assets/img/mozillathon1.jpg" alt="mozillathon1" width="200"></a></p>
 						<div class="text">
 							<dl>
+								<dt>開催日時</dt>
+								<dd><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></dd>
 								<dt>会場</dt>
 								<dd><?php echo get_post_meta($post->ID,'会場',TRUE); ?></dd>
 								<dt>定員</dt>
@@ -29,6 +30,9 @@ get_header(); ?>
 						</div>
 					</div>
 					<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>詳細ページ＆申し込み</a></p>
+					<div class="contents">
+						<?php the_content(); ?>
+					</div>
 				</article>
 
 			</section>

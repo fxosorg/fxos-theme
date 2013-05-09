@@ -251,6 +251,15 @@ nav{
 	float: left;
 	margin-right: 1rem;
 }
+
+#nowEvent dt{
+	font-weight: bold;
+	color: #e95f02;
+}
+#nowEvent dd{
+	margin: 0 0 1em 2em;
+}
+
 #nowEvent .more{
 	margin-top: 0.5rem;
 }
