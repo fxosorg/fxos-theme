@@ -342,7 +342,17 @@ nav{
 	opacity: 1;
 }
 
-/* ------ detail ------ */
+/* ------ .reports ------ */
+
+#nowEvent.reports h2{
+	margin-bottom: 1em;
+}
+#nowEvent.reports .date{
+	color: #666;
+	text-align: right;
+}
+
+/* ------ .contents ------ */
 .contents p,
 .contents h2,
 .contents h3,
@@ -359,6 +369,7 @@ nav{
 .contents ul{
 	margin-left: 2em;
 }
+
 
 
 /*-----------------------------------------------
