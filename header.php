@@ -33,6 +33,9 @@
 
 <body <?php body_class(); ?>>
 <div id="container">
+	<?php if ( is_home() ) { ?>
+	<header class="top">
+	<?php } ?> 
 	<header>
 		<div class="inner">
 			<h1><img src="/wp-content/themes/fxos-theme/assets/img/header_logo.png" alt="Firefox OSコミュニティ"></h1>

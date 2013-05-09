@@ -100,6 +100,8 @@ header .fox{
 	top: 30px;
 }
 
+
+
 /*___ joinbtn _____________________*/
 
 .joinbtn{
@@ -123,6 +125,15 @@ header .fox{
 }
 .joinbtn a:hover{
 	background-color: #840c0b;
+}
+
+
+
+header .top{
+	height: 200px;
+}
+header .top .joinbtn{
+	float: right;
 }
 
 /*___ nav _____________________*/
