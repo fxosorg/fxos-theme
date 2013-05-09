@@ -253,13 +253,12 @@ nav{
 #nowEvent .thumb{
 	float: left;
 	margin-right: 1rem;
-	margin-top: 0.5rem;
 	width: 200px;
 	height: 200px;
 	background: url(../img/noimage.jpg) no-repeat 0 0;
 }
 #nowEvent .text{
-	margin-top: 0.5rem;
+	margin-top: 1rem;
 }
 
 #nowEvent dt{
@@ -278,6 +277,9 @@ nav{
 	margin-left: 50%;
 }
 
+#nowEvent .events p.more{
+	margin: 1rem 0;
+}
 
 /* ------ #pastEvent ------ */
 

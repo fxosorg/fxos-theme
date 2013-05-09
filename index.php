@@ -30,7 +30,7 @@ get_header(); ?>
 
 				<article class="box">
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-					<p class="date"><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></p>
+					<p class="date"><i class="icon-time"></i><?php echo get_post_meta($post->ID,'開催日時',TRUE); ?></p>
 					<div class="wrap">
 						<p class="thumb"><a href="<?php the_permalink() ?>"><?php the_post_thumbnail('eventthumb') ?></a></p>
 						<p class="text"><?php echo mb_substr(strip_tags($post-> post_content),0,150).'...'; ?></p>
