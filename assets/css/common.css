@@ -366,13 +366,8 @@ nav{
 	padding: 5px 8px;
 }
 #pastEvent .box .more{
-	position: absolute;
-	right: 0;
-	top: 1rem;
-	opacity: 0;
 }
 #pastEvent .box:hover .more{
-	opacity: 1;
 }
 
 /* ------ .reports ------ */
