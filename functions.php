@@ -482,7 +482,7 @@ function event_init()
     'supports' => array('title','editor','thumbnail','custom-fields','excerpt','author','trackbacks','comments','revisions','page-attributes'),
     'has_archive' => true
   );
-  register_post_type('event',$args);
+  register_post_type('events',$args);
 }
 
 
@@ -491,7 +491,7 @@ add_action('init', 'create_custom_taxonomies', 0);
 function create_custom_taxonomies() {  
     register_taxonomy(
         'now', // 内部的な分類名
-        'event',  // 適用する投稿タイプ
+        'events',  // 適用する投稿タイプ
         array(
             'label' => '開催中かどうか',    // 表向きの分類名
             'hierarchical' => true, // 階層構造
