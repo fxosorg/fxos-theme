@@ -48,9 +48,9 @@
 			<li><a href="/about/"><i class="icon-question-sign"></i>コミュニティについて</a></li>
 			<li class="doc"><a href="#"><i class="icon-file-alt"></i>ドキュメント</a>
 				<ul>
-					<li><a href="/docs/"><i class="icon-user"></i>ユーザ向けドキュメント</a></li>
-					<li><a href="/apps/"><i class="icon-wrench"></i>アプリ開発者向けドキュメント</a></li>
-					<li><a href="/hacks/"><i class="icon-beaker"></i>Firefox OS本体をいじりたい人向けドキュメント</a></li>
+					<li><a href="/docs/"><i class="icon-user"></i>ユーザ向け</a></li>
+					<li><a href="/apps/"><i class="icon-wrench"></i>アプリ開発者向け</a></li>
+					<li><a href="/hacks/"><i class="icon-beaker"></i>Firefox OS本体のカスタマイズ</a></li>
 				</ul>
 			</li>
 			<li><a href="/events/"><i class="icon-calendar"></i>イベント / レポート</a></li>
