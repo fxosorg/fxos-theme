@@ -153,14 +153,17 @@ nav{
 	position: absolute;
 	top: 3em;
 	left: 0;
-	padding: 1em;
 	background-color: #e95f02;
 	border: 2px solid #fff;
+	text-align: left;
 }
 .gnav li ul > li{
 	float: none;
 	font-size: 0.8em;
 	width: auto;
+}
+.gnav li ul > li a{
+	padding: 0.5em;
 }
 
 
