@@ -358,6 +358,7 @@ nav{
 	color: #666;
 	text-align: right;
 	font-weight: normal;
+	font-size: 0.9rem;
 }
 
 /* ------ .contents ------ */
@@ -480,6 +481,9 @@ footer h1 img{
 footer h2 img{
 	width: 50%;
 	margin-left: 20%;
+}
+footer h3{
+	margin-bottom: 0.4em;
 }
 footer .joinbtn{
 	width: 75%;

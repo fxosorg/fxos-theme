@@ -13,9 +13,9 @@ get_header(); ?>
 		　　<?php while(have_posts()):the_post(); ?>
 			<section id="nowEvent" class="org reports">
 				<h1><i class="icon-calendar"></i>イベントレポート</h1>
-				<p class="date"><?php the_time("Y.m.d"); ?></p>
 				<article class="box">
 					<h2><?php the_title(); ?></h2>
+					<p class="date"><?php the_time("Y.m.d"); ?></p>
 					<p><?php the_post_thumbnail('reportthumbL') ?></p>
 					<div class="contents">
 						<?php the_content(); ?>

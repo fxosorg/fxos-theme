@@ -14,16 +14,17 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+	<?php while ( have_posts() ) : the_post(); ?>
+	<section class="gray page">
+		<h1><i class="icon-calendar"></i><?php the_title(); ?></h1>
+		<article class="box">
+			<!--<p class="date"><?php the_time("Y.m.d"); ?></p>-->
+			<div class="contents">
+				<?php the_content(); ?>
+			</div>
+		</article>
 
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', 'page' ); ?>
-				<?php comments_template( '', true ); ?>
-			<?php endwhile; // end of the loop. ?>
+	</section>
+	<?php endwhile; // end of the loop. ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
