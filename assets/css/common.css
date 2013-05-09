@@ -601,12 +601,21 @@ nav{
 	width: 100%;
 }*/
 
+#nowEvent .thumb{
+	float: none;
+	margin: 0 auto 1rem;
+}
+
 #nowEvent .more a {
 	margin-left: 0;
 }
 
 #pastEvent .box{
 	padding: 0.5rem;
+}
+#pastEvent .thumb{
+	float: none;
+	margin: 0 auto 1rem;
 }
 
 footer .footerColumn{
