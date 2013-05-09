@@ -243,17 +243,11 @@ nav{
 /* ------ .gray ------ */
 
 .gray .box{
-	border: 3px solid #e95f02;
+	border: 3px solid #333;
 }
 .gray .date,
 .gray h1{
-	color: #e95f02;
-}
-.gray .more a{
-	background-color: #e95f02;
-}
-.gray .more a:hover{
-	background-color: #be4800;
+	color: #333;
 }
 
 
