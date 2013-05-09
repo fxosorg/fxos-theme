@@ -581,7 +581,8 @@ header h2{
 header h2 img{
 	width: 50%;
 }
-header .joinbtn{
+header.top .joinbtn,
+header.elsebtn .joinbtn{
 	width: 80%;
 	margin:  0 auto;
 	position: static;
