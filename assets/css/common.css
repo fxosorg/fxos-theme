@@ -129,11 +129,16 @@ header .fox{
 
 
 
-header.top{
+header.elsepage{
 	height: 200px;
 }
 header.elsepage .joinbtn{
-	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+header.elsepage h1{
+	margin-top: 10px;
 }
 
 /*___ nav _____________________*/
