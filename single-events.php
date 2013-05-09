@@ -11,7 +11,7 @@ get_header(); ?>
 
 		<?php if(have_posts()): ?>
 		　　<?php while(have_posts()):the_post(); ?>
-			<section id="nowEvent" class="org">
+			<section id="nowEvent" class="org events">
 				<h1><i class="icon-bullhorn"></i>イベント詳細</h1>
 
 

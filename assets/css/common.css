@@ -54,6 +54,9 @@ body {
 i{
 	margin-right: 0.3em;
 }
+a{
+	color: #be4800;
+}
 
 /*-----------------------------------------------
 	parts name
@@ -251,6 +254,9 @@ nav{
 	float: left;
 	margin-right: 1rem;
 	margin-top: 0.5rem;
+	width: 300px;
+	height: 200px;
+	background: url(../img/noimage.jpg) no-repeat 0 0;
 }
 #nowEvent .text{
 	margin-top: 0.5rem;
@@ -309,6 +315,22 @@ nav{
 #pastEvent .box:hover .more{
 	opacity: 1;
 }
+
+/* ------ detail ------ */
+.contents p,
+.contents h2,
+.contents h3,
+.contents ul{
+	margin-bottom: 0.8rem;
+}
+.contents h2{
+	font-size: 1.4rem;
+	color: #e95f02;
+}
+.contents h3{
+	font-size: 1.2rem;
+}
+
 
 /*-----------------------------------------------
 	#side
