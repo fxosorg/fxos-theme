@@ -129,10 +129,10 @@ header .fox{
 
 
 
-header .top{
+header.top{
 	height: 200px;
 }
-header .elsepage .joinbtn{
+header.elsepage .joinbtn{
 	float: right;
 }
 
