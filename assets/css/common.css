@@ -335,9 +335,8 @@ nav{
 /* ------ #pastEvent ------ */
 
 #pastEvent .box{
-	width: 48%;
-	float: left;
-	margin: 0 1% 20px;
+	width: 100%;
+	margin: 0 0 20px;
 	position: relative;
 }
 #pastEvent .box img{
@@ -346,7 +345,6 @@ nav{
 }
 #pastEvent .box .thumb{
 	position: relative;
-	margin-right: 5px;
 	float: left;
 }
 #pastEvent .box .thumb a{
