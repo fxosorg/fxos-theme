@@ -251,6 +251,16 @@ nav{
 }
 
 
+/* ------ .bw ------ */
+
+.bw .box{
+	border: 3px solid #642800;
+}
+.bw .date,
+.bw h1{
+	color: #642800;
+}
+
 
 
 /* ------ normal list ------ */
