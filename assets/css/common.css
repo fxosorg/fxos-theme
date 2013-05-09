@@ -613,7 +613,7 @@ nav{
 #pastEvent .box{
 	padding: 0.5rem;
 }
-#pastEvent .thumb{
+#pastEvent .box .thumb{
 	float: none;
 	margin: 0 auto 1rem;
 }
