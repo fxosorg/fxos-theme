@@ -417,6 +417,7 @@ nav{
 }
 .contents h3{
 	font-size: 1.2rem;
+	border-bottom: 1px dotted #333;
 }
 .contents ul{
 	margin-left: 2em;
