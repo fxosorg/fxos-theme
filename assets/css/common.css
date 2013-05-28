@@ -618,15 +618,16 @@ nav{
 }
 nav .gnav li{
 	float: none;
-	width: 100%;
+	width: 96%;
 	border-bottom: 2px solid #fff;
 }
 nav .gnav li a{
-	padding: 0.8em 1em;
+	padding: 0.8em 2%;
 }
 .gnav li ul{
 	width: 100%;
 	z-index: 100;
+	border: none;
 }
 /*.gnav li{
 	float: none;
