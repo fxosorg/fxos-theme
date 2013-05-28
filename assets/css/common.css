@@ -624,6 +624,10 @@ nav .gnav li{
 nav .gnav li a{
 	padding: 0.8em 1em;
 }
+.gnav li ul{
+	width: 100%;
+	z-index: 100;
+}
 /*.gnav li{
 	float: none;
 	width: 100%;
