@@ -53,7 +53,7 @@ get_header(); ?>
 						<p class="thumb"><a href="<?php the_permalink() ?>"><?php the_post_thumbnail('reportthumb') ?></a></p>
 						<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<p class="date"><?php the_time("Y.m.d"); ?></p>
-						<p class="more"><a href="#"><i class="icon-circle-arrow-right"></i></a></p>
+						<p class="more"><a href="<?php the_permalink() ?>"><i class="icon-circle-arrow-right"></i>くわしくみる</a></p>
 					</article>
 				<?php endwhile; ?>
 				</div>
