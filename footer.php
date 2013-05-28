@@ -15,21 +15,14 @@
 			<section id="news" class="bl">
 				<h1><i class="icon-rss"></i>最近のトピック</h1>
 				<article class="box">
-					<ul class="list icons">
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-						<li><a href="#"><i class="icon-angle-right"></i>GoogleグループのMLトピックスにしたい</a></li>
-					</ul>
+					<ul class="list icons" id="feed"></ul>
 					<p class="more"><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-circle-arrow-right"></i>すべてみる</a></p>
 				</article>
 			</section>
 			<section id="info" class="bw">
 				<article class="box">
-					<p>Firefox OS コミュニティメンバーの書いた書籍がもうじき発売されます！</p>
-					<p class="text-center"><img src="/wp-content/themes/fxos-theme/assets/img/comingsoon.jpg" alt="coming soon"></p>
+					<p>Firefox OS コミュニティメンバーの書いた書籍が発売されました！</p>
+					<p class="text-center"><a href="http://www.amazon.co.jp/dp/4897979218/"><img src="/wp-content/themes/fxos-theme/assets/img/fxos_cover.jpg" alt="Firefox OSアプリ開発ガイド"></a></p>
 				</article>
 			</section>
 		</div><!-- /#side -->
