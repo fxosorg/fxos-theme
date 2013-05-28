@@ -43,7 +43,7 @@
 					<ul>
 						<li><a href="/"><i class="icon-home"></i>HOME</a></li>
 						<li><a href="/about/"><i class="icon-question-sign"></i>コミュニティについて</a></li>
-						<li><a href="/events/"><i class="icon-calendar"></i>イベント / レポート</a></li>
+						<li><a href="/reports/"><i class="icon-calendar"></i>イベント / レポート</a></li>
 						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/firefoxos"><i class="icon-rss"></i>最近のトピック</a></li>
 					</ul>
 				</div>
