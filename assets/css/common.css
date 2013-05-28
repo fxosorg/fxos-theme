@@ -614,10 +614,15 @@ header .os{
 }
 nav{
 	text-align: left;
+	font-size: 1rem;
 }
 nav .gnav li{
 	float: none;
 	width: 100%;
+	border-bottom: 2px solid #fff;
+}
+nav .gnav li a{
+	padding: 0.8em 1em;
 }
 /*.gnav li{
 	float: none;
