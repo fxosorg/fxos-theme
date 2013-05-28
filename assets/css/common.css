@@ -421,6 +421,9 @@ nav{
 .contents ul{
 	margin-left: 2em;
 }
+.contents ul li{
+	margin-bottom: 0.3rem;
+}
 
 
 
