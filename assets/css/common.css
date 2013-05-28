@@ -430,6 +430,9 @@ nav{
 }
 .contents em{
 	color: #c00;
+	font-style: normal;
+	border: 2px solid #c00;
+	padding: 0.3rem;
 }
 
 
