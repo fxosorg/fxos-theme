@@ -612,6 +612,9 @@ header.elsepage .joinbtn{
 header .os{
 	display: none;
 }
+nav{
+	text-align: left;
+}
 nav .gnav li{
 	float: none;
 	width: 100%;
