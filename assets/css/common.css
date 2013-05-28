@@ -266,6 +266,7 @@ nav{
 
 .gray .box{
 	border: 3px solid #333;
+	padding: 5px;
 }
 .gray .date,
 .gray h1{
@@ -402,11 +403,13 @@ nav{
 }
 
 /* ------ .contents ------ */
-.contents p,
 .contents h2,
 .contents h3,
 .contents ul{
 	margin-bottom: 0.8rem;
+}
+.contents p{
+	margin-bottom: 1.2rem;
 }
 .contents h2{
 	font-size: 1.4rem;
