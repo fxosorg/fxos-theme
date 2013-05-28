@@ -620,14 +620,13 @@ nav .gnav li{
 	float: none;
 	width: 96%;
 	border-bottom: 2px solid #fff;
-}
-nav .gnav li a{
-	padding: 0.8em 2%;
+	padding: 0 2%;
 }
 .gnav li ul{
 	width: 100%;
 	z-index: 100;
-	border: none;
+	border-left: none;
+	border-bottom: none;
 }
 /*.gnav li{
 	float: none;
