@@ -435,6 +435,10 @@ nav{
 #news .list a{
 	color: #666;
 }
+#news .list a span{
+	color: #999;
+	font-size: 0.8em;
+}
 #news .more a{
 	display: block;
 	margin-top: 1rem;
