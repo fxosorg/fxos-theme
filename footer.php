@@ -52,7 +52,7 @@
 					<ul>
 						<li><a href="/docs/"><i class="icon-user"></i>ユーザ向け</a></li>
 						<li><a href="/apps/"><i class="icon-wrench"></i>アプリ開発者向け</a></li>
-						<li><a href="/hacks/"><i class="icon-beaker"></i>Firefox OS本体のカスタマイズ</a></li>
+						<li><a href="/hacks/"><i class="icon-beaker"></i>OS 開発者向け</a></li>
 					</ul>
 				</div>
 			</div>
