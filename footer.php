@@ -56,7 +56,7 @@
 					</ul>
 				</div>
 			</div>
-			<p class="copyright">Portions of this content are ©2013 by Firefox OS Community.<br>このサイトの一部はクリエイティブ・コモンズ・ライセンスのもとでライセンスされています。</p>
+			<p class="copyright">Portions of this content are ©2013-2014 by Firefox OS Community.<br>このサイトの一部はクリエイティブ・コモンズ・ライセンスのもとでライセンスされています。</p>
 		</div>
 	</footer>
 
