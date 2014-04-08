@@ -41,11 +41,12 @@ get_header(); ?>
 
 			</section>
 
+			<?php /* 
 			<section id="pastEvent" class="org">
 				<h1><i class="icon-calendar"></i>イベントレポート</h1>
 				<div class="wrap">
 				<?php
-				/* カスタム投稿タイプを表示する */
+				// カスタム投稿タイプを表示する
 				$loop = new WP_Query( array( 'post_type' => 'reports', 'posts_per_page' => 10 ) );
 				while ( $loop->have_posts() ) : $loop->the_post();
 				?>
@@ -58,5 +59,6 @@ get_header(); ?>
 				<?php endwhile; ?>
 				</div>
 			</section>
+			 */ ?>
 
 <?php get_footer(); ?>
