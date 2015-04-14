@@ -419,13 +419,18 @@ nav{
 	font-size: 1.2rem;
 	border-bottom: 1px dotted #333;
 }
-.contents ul{
+.contents ul,
+.contents ol{
 	margin-left: 2em;
 }
-.contents ul li{
+.contents ul li,
+.contents ol li{
 	margin-bottom: 0.3rem;
 }
-.contents ul li ul li{
+.contents ul li ul li,
+.contents ul li ol li,
+.contents ol li ol li,
+.contents ol li ul li{
 	margin-bottom: 0;
 }
 .contents em{
